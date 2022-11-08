@@ -1,0 +1,55 @@
+div {
+    margin: 20px;
+    border: 2px solid red;
+    padding: 40px;
+    background-color: gray;
+    color: white;
+}
+
+p {
+    font-size: 3em;
+    color:green;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.relative {
+    font-size: 1.2em;
+    background-color: cyan;
+    padding: 15px;
+    border: 3px dotted yellow;
+    color: royalblue;
+    position: relative;
+}
+
+.alterada {
+    top: 20px;
+    left: 20px;
+}
+
+.absolute {
+    height: 40px;
+    width: 140px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.fixed {
+    border: 5px double blue;
+    background-color: sandybrown;
+    color: black;
+    position: fixed;
+    top: 70px;
+    left: 70px;
+}
+
+.sticky {
+    border: 5px double palevioletred;
+    background-color:navajowhite;
+    color: black;
+    position: sticky;
+    top:40px;
+    right: 100px;
+}
